@@ -12,3 +12,4 @@ nums = [[1,2,3],
         [7,8,9]]
 ans = row_wise_sum(nums)
 print("Col Wise Sum is : ",ans)
+print("Col Wise Sum is : ",ans)
