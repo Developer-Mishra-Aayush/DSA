@@ -9,9 +9,6 @@ def peakIndexInMountainArray(nums):
             end = mid
     return end
 
-
-
-
 nums = [0,2,1,0]
 ans = peakIndexInMountainArray(nums)
 print("Peak Index In Mountain Array is : ",ans)
