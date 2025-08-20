@@ -42,8 +42,6 @@ def mergeSort(nums,start,end):
 
         merge(nums,start,end)
 
-
-
 nums = [120,10,230,60,90,40,22,25]
 mergeSort(nums,0,len(nums)-1)
 print("After Megre Sort : ",nums)
