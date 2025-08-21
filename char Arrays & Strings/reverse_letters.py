@@ -8,9 +8,9 @@ def reverseLetter(s):
     start = 0
     end = len(s)-1
     while start<=end:
-        while isNotLetter(s[start]):
+        while start<=end and isNotLetter(s[start]):
             start+=1
-        while isNotLetter(s[end]):
+        while start<=end and isNotLetter(s[end]):
             end-=1
         if start<=end:
             s[start],s[end] = s[end],s[start]
