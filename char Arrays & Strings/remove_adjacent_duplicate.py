@@ -9,8 +9,6 @@ def removeDuplicates(s):
             ans.append(i)
     return ''.join(ans)
 
-
-
 s = input("Enter the String : ")
 ans = removeDuplicates(s)
 print("After removing Duplictes : ",ans)
