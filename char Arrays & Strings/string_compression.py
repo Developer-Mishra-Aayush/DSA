@@ -12,8 +12,6 @@ def compress(chars):
             ans+=str(dict[i])
     return list(ans)
 
-
-
 chars = ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
 # chars = ["a","a","b","b","c","c","c"]
 ans = compress(chars)
