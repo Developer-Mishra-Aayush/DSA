@@ -20,10 +20,6 @@ def convert(s,numRows):
         s+=''.join(i)
     return s
 
-
-
-
-
 s = input("Enter the String :")
 numRows = int(input("Enter the Rows"))
 ans = convert(s,numRows)
