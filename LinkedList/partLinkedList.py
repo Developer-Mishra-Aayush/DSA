@@ -5,7 +5,7 @@
 #         self.next = next
 
 class Solution:
-    def splitListToParts(self, head: ListNode, k: int) -> List[ListNode]:
+    def splitListToParts(self, head, k):
         length = 0
         temp = head
         while temp:
