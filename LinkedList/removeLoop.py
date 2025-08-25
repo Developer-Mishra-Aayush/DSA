@@ -49,5 +49,6 @@ second.next = third
 third.next = fourth
 fourth.next = second
 ans = l1.detectCycle()
+
 l1.Print()
 print("Staring point of a Linked List is : ",ans.data)
