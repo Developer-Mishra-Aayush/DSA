@@ -1,3 +1,10 @@
+"""
+Title: Merge Sort on Linked List
+Approach: Split list at middle using slow/fast pointers, recursively sort halves, and merge two sorted lists.
+Time: O(n log n)
+Space: O(log n) recursion
+"""
+
 class Node:
     def __init__(self,val=0,next=None):
         self.val = val

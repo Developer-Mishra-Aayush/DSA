@@ -1,3 +1,10 @@
+"""
+Title: Maximum Subarray (Kadane's Algorithm)
+Approach: Maintain running sum; reset to 0 when negative, track maximum seen.
+Time: O(n)
+Space: O(1)
+"""
+
 def maxSubarray(nums):
     maxi = float('-inf')
     sumi = 0

@@ -1,3 +1,10 @@
+"""
+Title: Aggressive Cows (Maximize minimum distance)
+Approach: Binary search on the answer (minimum distance) and greedily place cows to check feasibility.
+Time: O(n log D) where D is distance range
+Space: O(1)
+"""
+
 def isPossible(stalls,cows,mid):
     cowCount = 1
     prev = stalls[0]

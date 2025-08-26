@@ -1,3 +1,10 @@
+"""
+Title: Middle of Linked List
+Approach: Use slow and fast pointers; when fast reaches end, slow is at middle.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

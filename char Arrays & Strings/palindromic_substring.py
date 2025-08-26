@@ -1,3 +1,10 @@
+"""
+Title: Palindromic Substrings (Count)
+Approach: For each center (char and between chars), expand while equal to count palindromes.
+Time: O(n^2)
+Space: O(1)
+"""
+
 def expandAroundCenter(s,start,end):
     count = 0
     while start>=0 and end<len(s) and s[start]==s[end]:

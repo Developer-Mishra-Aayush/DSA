@@ -1,4 +1,11 @@
 """
+Title: Copy List with Random Pointer
+Approach: First pass create clone nodes mapping original->clone; second pass wire next and random using the map.
+Time: O(n)
+Space: O(n)
+"""
+
+"""
 # Definition for a Node.
 class Node:
     def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):

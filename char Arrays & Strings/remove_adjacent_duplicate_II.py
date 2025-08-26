@@ -1,3 +1,10 @@
+"""
+Title: Remove All Adjacent Duplicates in String II (k duplicates)
+Approach: Maintain a stack of [char, count]; when count reaches k-1 and next is same, pop k-1 entries, otherwise push with incremented count.
+Time: O(n)
+Space: O(n)
+"""
+
 def removeDuplicates(s,k):
     new_s = []
     if len(s)<k:

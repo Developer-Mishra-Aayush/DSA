@@ -1,3 +1,10 @@
+"""
+Title: 1's and 2's Complement
+Approach: Convert to fixed-width binary, flip bits for 1's complement, then add one for 2's complement.
+Time: O(bit)
+Space: O(bit)
+"""
+
 def decimal_binary(num,bit):
     binary = ""
     for i in range(bit):

@@ -1,3 +1,10 @@
+"""
+Title: Merge Two Sorted Lists
+Approach: Use a dummy node and iteratively attach the smaller head from l1 or l2; append remainder.
+Time: O(m + n)
+Space: O(1) extra (in-place links)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

@@ -1,3 +1,10 @@
+"""
+Title: Reorganize String (No Adjacent Equal Characters)
+Approach: Place the most frequent character at even indices first, then fill remaining characters alternating positions; fail if max count too high.
+Time: O(n)
+Space: O(1) extra (dictionary up to 26)
+"""
+
 def reorganize(s):
     s = list(s)
     # Find the Max Occuring String

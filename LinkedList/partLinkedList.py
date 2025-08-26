@@ -1,3 +1,10 @@
+"""
+Title: Split Linked List in Parts
+Approach: Compute length, determine base size and extras, then cut k parts accordingly.
+Time: O(n + k)
+Space: O(1)
+"""
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

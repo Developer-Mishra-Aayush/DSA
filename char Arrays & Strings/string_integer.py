@@ -1,3 +1,10 @@
+"""
+Title: String to Integer (atoi)
+Approach: Trim spaces, handle optional sign, parse digits until non-digit; apply sign.
+Time: O(n)
+Space: O(1)
+"""
+
 def isInt(a):
     if a>='0' and a<='9':
         return True

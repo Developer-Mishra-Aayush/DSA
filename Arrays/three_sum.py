@@ -1,3 +1,10 @@
+"""
+Title: Three Sum (Find unique triplets summing to zero)
+Approach: Sort array, fix one element, and use two-pointer sweep to find pairs; store triplets in a set.
+Time: O(n^2)
+Space: O(k) for output set (ignoring sort), typically O(1) extra
+"""
+
 def threeSum(nums):
     if len(nums)<=2:
         return -1

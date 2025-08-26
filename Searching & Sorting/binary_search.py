@@ -1,3 +1,10 @@
+"""
+Title: Binary Search
+Approach: Iterative binary search on a sorted array using start, end, and mid pointers.
+Time: O(log n)
+Space: O(1)
+"""
+
 def binary_search(nums,target):
     start = 0
     end = len(nums)-1

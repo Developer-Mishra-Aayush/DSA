@@ -1,3 +1,10 @@
+"""
+Title: Add One to Number Represented by Linked List
+Approach: Reverse list, add one with carry propagation, append node if carry remains, then reverse back.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.data = data

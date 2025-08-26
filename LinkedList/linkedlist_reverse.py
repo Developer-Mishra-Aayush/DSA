@@ -1,3 +1,10 @@
+"""
+Title: Reverse Linked List (Iterative)
+Approach: Iterate with three pointers (prev, curr, next) reversing links until end; update head to prev.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data=0):
         self.next = None

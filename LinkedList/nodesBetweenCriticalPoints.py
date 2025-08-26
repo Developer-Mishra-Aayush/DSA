@@ -1,3 +1,10 @@
+"""
+Title: Nodes Between Critical Points
+Approach: Traverse once to detect critical points (local minima/maxima), track first/last indices to compute min and max distances.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.data = data

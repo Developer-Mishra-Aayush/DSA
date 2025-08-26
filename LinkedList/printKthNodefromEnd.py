@@ -1,3 +1,10 @@
+"""
+Title: Kth Node from End in Linked List
+Approach: Compute length, move (len-k-1) steps to get the previous node, then return next; two-pointer alt.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

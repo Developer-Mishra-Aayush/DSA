@@ -1,3 +1,10 @@
+"""
+Title: Start of Cycle in Linked List
+Approach: Detect cycle with Floyd; reset one pointer to head and move both one step to find cycle entry.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data=0):
         self.next = None

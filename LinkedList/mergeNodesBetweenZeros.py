@@ -1,3 +1,10 @@
+"""
+Title: Merge Nodes in Between Zeros
+Approach: Traverse segments between zeros, sum values, and build a new list with each segment sum as a node.
+Time: O(n)
+Space: O(1) extra (excluding output)
+"""
+
 class Node:
     def __init__(self,val=0,next=None):
         self.val = val

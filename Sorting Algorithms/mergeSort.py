@@ -1,3 +1,10 @@
+"""
+Title: Merge Sort
+Approach: Divide the array into halves recursively and merge sorted halves using an auxiliary merge procedure.
+Time: O(n log n)
+Space: O(n)
+"""
+
 def merge(nums,start,end):
     mid = start + (end - start)//2
     len1 = mid - start + 1

@@ -1,3 +1,10 @@
+"""
+Title: Peak Index in Mountain Array
+Approach: Binary search on the slope; compare mid with mid+1 to move towards the peak.
+Time: O(log n)
+Space: O(1)
+"""
+
 def peakIndexInMountainArray(nums):
     start = 0
     end = len(nums)-1

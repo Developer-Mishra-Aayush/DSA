@@ -1,3 +1,10 @@
+"""
+Title: Reverse Nodes in k-Group
+Approach: Reverse first k nodes iteratively, then recursively process the remainder and link; guard when k > length.
+Time: O(n)
+Space: O(1) extra (O(n/k) recursion depth)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

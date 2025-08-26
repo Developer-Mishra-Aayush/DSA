@@ -1,3 +1,10 @@
+"""
+Title: Rotate Array by k (Right Rotation)
+Approach: Reverse whole array, then reverse first k elements, then reverse remaining elements (triple-reverse).
+Time: O(n)
+Space: O(1)
+"""
+
 def reverse(nums,start,end):
     while start<=end:
         nums[start],nums[end] = nums[end],nums[start]

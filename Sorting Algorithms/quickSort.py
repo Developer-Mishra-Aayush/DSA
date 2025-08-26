@@ -1,3 +1,10 @@
+"""
+Title: Quick Sort (Lomuto-like partition with pivot at start)
+Approach: Choose pivot, count smaller-or-equal elements to place pivot, then partition around pivot and recurse on subarrays.
+Time: Average O(n log n), Worst O(n^2)
+Space: O(log n) recursion (in-place partition)
+"""
+
 def getPivot(nums,start,end):
     mid = start + (end - start)//2
     pivot = nums[start]

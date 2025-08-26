@@ -1,3 +1,10 @@
+"""
+Title: Intersection of Two Linked Lists
+Approach: Advance the longer list by length difference, then move both together to find intersection.
+Time: O(m + n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

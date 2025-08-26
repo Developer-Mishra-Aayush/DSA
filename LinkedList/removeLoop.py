@@ -1,3 +1,10 @@
+"""
+Title: Remove Loop in Linked List
+Approach: Detect cycle with Floyd's algorithm; then move a pointer from head and another from meeting point to find start; cut the loop.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data=0):
         self.next = None

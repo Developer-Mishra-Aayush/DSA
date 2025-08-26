@@ -1,3 +1,10 @@
+"""
+Title: Isomorphic Strings
+Approach: Ensure a one-to-one mapping from characters in s to t and no two characters map to the same character.
+Time: O(n)
+Space: O(1) (limited alphabet)
+"""
+
 def isIsomorphic(s,t):
     if len(s)!=len(t):
         return False

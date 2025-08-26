@@ -1,3 +1,10 @@
+"""
+Title: Odd Even Linked List
+Approach: Maintain odd and even pointers; relink nodes in one pass and attach even list after odd list.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data=0,next=None):
         self.data = data

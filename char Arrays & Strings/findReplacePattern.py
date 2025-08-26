@@ -1,3 +1,10 @@
+"""
+Title: Find and Replace Pattern
+Approach: For each word, check bijective mapping to pattern using two-way constraints (char->char and reverse).
+Time: O(k * L) where k=#words, L=word length
+Space: O(1) per word (limited alphabet)
+"""
+
 def isPossible(words,pattern):
     dict = {}
     if len(words)!=len(pattern):

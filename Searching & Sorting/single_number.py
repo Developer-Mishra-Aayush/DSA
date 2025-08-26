@@ -1,3 +1,10 @@
+"""
+Title: Single Number (Find element that appears once)
+Approach: Count frequencies with a dictionary and return the key with count 1. (Alternative: XOR to get O(1) space)
+Time: O(n)
+Space: O(n) (O(1) with XOR approach)
+"""
+
 def singleNumber(nums):
     dict = {}
     for i in nums:

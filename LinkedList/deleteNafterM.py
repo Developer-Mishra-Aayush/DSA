@@ -1,3 +1,10 @@
+"""
+Title: Delete N Nodes After M Nodes in Linked List
+Approach: Skip M nodes, then bypass next N nodes, and recurse/iterate until end.
+Time: O(n)
+Space: O(1) extra (recursive version uses call stack)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

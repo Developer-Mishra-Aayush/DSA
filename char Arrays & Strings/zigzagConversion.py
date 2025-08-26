@@ -1,3 +1,10 @@
+"""
+Title: Zigzag Conversion
+Approach: Simulate writing characters in a zigzag across rows and then read row-wise.
+Time: O(n)
+Space: O(n)
+"""
+
 def convert(s,numRows):
     ans = []
     for i in range(numRows):

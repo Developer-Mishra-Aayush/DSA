@@ -1,3 +1,10 @@
+"""
+Title: Painter's Partition Problem
+Approach: Binary search the maximum time per painter; greedily accumulate boards until exceeding mid, then allocate new painter.
+Time: O(n log S) where S is sum of board lengths
+Space: O(1)
+"""
+
 def isPossible(nums,mid,k):
     studentCount = 1
     pageSum = 0

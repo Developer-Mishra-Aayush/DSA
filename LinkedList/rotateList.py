@@ -1,3 +1,10 @@
+"""
+Title: Rotate List
+Approach: Compute length, connect tail to head to form a cycle, break at new tail after (len-k%len)-1 steps.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

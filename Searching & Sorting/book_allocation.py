@@ -1,3 +1,10 @@
+"""
+Title: Book Allocation / Split Array Largest Sum
+Approach: Binary search on the maximum allowed pages per student; greedily allocate and check feasibility.
+Time: O(n log S) where S is sum of pages
+Space: O(1)
+"""
+
 def isPossible(nums,mid,k):
     studentCount = 1
     pageSum = 0

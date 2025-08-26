@@ -1,3 +1,10 @@
+"""
+Title: Valid Palindrome II (at most one deletion)
+Approach: Two pointers; on mismatch, skip either left or right once and check the remainder.
+Time: O(n)
+Space: O(1)
+"""
+
 def isPalindrome(s,start,end):
     while start<=end:
         if s[start]!=s[end]:

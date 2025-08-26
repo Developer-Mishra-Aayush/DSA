@@ -1,3 +1,10 @@
+"""
+Title: EKO - Spoj (Cutting Trees)
+Approach: Binary search on the saw height; sum wood collected at a given height to check if requirement is met.
+Time: O(n log H) where H is max tree height
+Space: O(1)
+"""
+
 def isPossible(trees,r,mid):
     totalWood = 0
     for i in trees:

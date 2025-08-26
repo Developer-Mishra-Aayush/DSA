@@ -1,3 +1,10 @@
+"""
+Title: K-diff Pairs in an Array
+Approach: Use a set to track seen numbers and add valid pairs (num-k, num) or (num, num+k) into an output set to dedupe.
+Time: O(n)
+Space: O(n)
+"""
+
 def findPairs(nums,k):
     seen = set()
     output = set()

@@ -1,3 +1,10 @@
+"""
+Title: Decode the Message (Substitution Cipher)
+Approach: Build a mapping from first appearance in key to 'a'..'z' order, then translate message preserving spaces.
+Time: O(n)
+Space: O(1) extra (map of at most 26)
+"""
+
 def decodeMessage(key,message):
     secret = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','x']
     i = 0

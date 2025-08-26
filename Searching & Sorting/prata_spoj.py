@@ -1,3 +1,10 @@
+"""
+Title: PRATA - Roti Prata (SPOJ)
+Approach: Binary search on time; for a given time, simulate how many parathas each cook can make using arithmetic progression of times.
+Time: O(cooks * sqrt(T)) per check roughly; overall O(cooks * log answer)
+Space: O(1)
+"""
+
 def isPossible(cooks,totalParathas,mid):
     tp = 0
     for i in cooks:

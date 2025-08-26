@@ -1,3 +1,10 @@
+"""
+Title: Group Anagrams (Naive)
+Approach: Repeatedly pick a word and collect anagrams by comparing sorted characters; remove as you go.
+Time: O(n^2 * L log L)
+Space: O(n)
+"""
+
 def groupAnagram(strs):
     ans = []
     while strs:

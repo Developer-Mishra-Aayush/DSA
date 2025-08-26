@@ -1,3 +1,10 @@
+"""
+Title: Add Two Numbers (Linked Lists)
+Approach: Traverse both lists simultaneously, summing digits with carry, and build result via a dummy head.
+Time: O(m + n)
+Space: O(1) extra (excluding output list)
+"""
+
 class Node:
     def __init__(self,data=0):
         self.next = None

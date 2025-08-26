@@ -1,3 +1,10 @@
+"""
+Title: Remove Zero Sum Consecutive Nodes from Linked List
+Approach: Use prefix sums with a map from sum to node; first pass records last occurrence, second pass relinks to skip zero-sum ranges.
+Time: O(n)
+Space: O(n)
+"""
+
 class Node:
     def __init__(self,val=0,next=None):
         self.val = val
