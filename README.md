@@ -13,6 +13,7 @@ DSA/
   LinkedList/                 # Singly/Doubly linked list implementations and problems
   Searching & Sorting/        # Classic search/sort problems and patterns
   Sorting Algorithms/         # Fundamental sorting algorithm implementations
+  Recursion/                  # Recursive solutions and patterns
 ```
 
 Each folder contains one-file-per-problem Python solutions, named after the problem.
