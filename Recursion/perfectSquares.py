@@ -18,7 +18,7 @@ def numSquare(n):
     if n==0:
         return 0
     ans = solve(n)
-    return 
+    return ans
 
 n = int(input("Enter the Number : "))
 ans = numSquare(n)
