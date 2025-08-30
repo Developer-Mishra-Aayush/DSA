@@ -9,17 +9,12 @@ def solve(s,ans,tempAns,i):
             tempAns[i],tempAns[j] = tempAns[j],tempAns[i]
             solve(s,ans,tempAns,i+1)
 
-
-
-
 def permutation(s):
     ans = []
     s = list(s)
     tempAns = s.copy()
     solve(s,ans,tempAns,0)
     return ans
-
-
 
 s = "abc"
 ans = permutation(s)
