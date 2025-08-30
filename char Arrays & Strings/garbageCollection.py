@@ -1,3 +1,10 @@
+"""
+Title: Minimum Time to Collect Garbage
+Approach: Count pickups for each type and add travel time up to the last house containing that type.
+Time: O(n)
+Space: O(1)
+"""
+
 def garbageCollection(garbage,travel):
     pCollect = 0
     pTravel = 0

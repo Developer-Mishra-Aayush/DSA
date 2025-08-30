@@ -1,3 +1,10 @@
+"""
+Title: K Closest Elements
+Approach: Compute absolute differences from x, then stable sort by (diff, value) and take first k.
+Time: O(n log n) with sort (current code uses O(n^2) bubble sort)
+Space: O(n)
+"""
+
 def k_closest_element(nums,k,x):
     ans = nums.copy()
     for i in range(len(ans)):

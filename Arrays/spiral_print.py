@@ -1,3 +1,10 @@
+"""
+Title: Spiral Order Print of Matrix
+Approach: Maintain four boundaries (top, bottom, left, right) and traverse layer by layer while shrinking bounds.
+Time: O(m*n)
+Space: O(1) extra (excluding output)
+"""
+
 def spiral_print(nums):
     sRow = 0
     sCol = 0

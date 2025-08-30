@@ -1,3 +1,10 @@
+"""
+Title: String Compression
+Approach: Count consecutive characters and write char + count (if >1). Current solution counts globally; in-place two-pointer variant exists.
+Time: O(n)
+Space: O(k)
+"""
+
 def compress(chars):
     dict = {}
     for i in chars:

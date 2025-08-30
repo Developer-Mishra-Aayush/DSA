@@ -1,3 +1,10 @@
+"""
+Title: Two Sum (Return indices of two numbers summing to target)
+Approach: Use a hash map to store values and their indices; check complement for each element.
+Time: O(n)
+Space: O(n)
+"""
+
 def twoSum(nums,target):
     dict = {}
     for i,val in enumerate(nums):

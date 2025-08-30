@@ -1,3 +1,10 @@
+"""
+Title: Selection Sort
+Approach: Repeatedly select the minimum element from the unsorted portion and place it at the beginning.
+Time: O(n^2)
+Space: O(1)
+"""
+
 def selectionSort(nums):
     for i in range(len(nums)):
         mini_index = i

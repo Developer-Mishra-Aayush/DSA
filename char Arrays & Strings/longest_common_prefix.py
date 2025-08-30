@@ -1,3 +1,10 @@
+"""
+Title: Longest Common Prefix
+Approach: Sort strings; common prefix of first and last after sort equals overall LCP.
+Time: O(n log n + L)
+Space: O(1)
+"""
+
 def longestCommonPrefix(strs):
     strs = sorted(strs)
     first = strs[0]

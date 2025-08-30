@@ -1,3 +1,10 @@
+"""
+Title: Group Anagrams (Optimized)
+Approach: Use sorted string as key in a dictionary to group anagrams.
+Time: O(n * L log L)
+Space: O(n * L)
+"""
+
 def groupAnagram(strs):
     dict = {}
     for i in strs:

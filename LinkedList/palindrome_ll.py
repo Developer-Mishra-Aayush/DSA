@@ -1,3 +1,10 @@
+"""
+Title: Palindrome Linked List
+Approach: Find middle, reverse second half, compare first and second halves node by node.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data = 0):
         self.next = None

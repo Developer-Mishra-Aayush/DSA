@@ -1,3 +1,10 @@
+"""
+Title: Search in Nearly Sorted Array
+Approach: Modified binary search where the target can be at mid, mid-1, or mid+1 due to near-sorted property.
+Time: O(log n)
+Space: O(1)
+"""
+
 def nearlySorted(nums,target):
     start = 0
     end = len(nums)-1

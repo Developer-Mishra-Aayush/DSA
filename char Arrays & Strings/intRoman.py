@@ -1,3 +1,10 @@
+"""
+Title: Integer to Roman
+Approach: Greedy conversion using descending numeral values and corresponding Roman literals.
+Time: O(1) (bounded by fixed numeral set)
+Space: O(1)
+"""
+
 def intToRoman(num):
     numeral = [1000,900,500,400,100,90,50,40,10,9,5,4,1]
     literal = ['M','CM','D','CD','C','XC','L','XL','X','IX','V','IV','I']

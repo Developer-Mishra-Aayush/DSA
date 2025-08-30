@@ -1,3 +1,10 @@
+"""
+Title: Singly Linked List Basic Operations
+Approach: Implement insert at head/tail/index and delete at head/tail with tail maintenance.
+Time: Insert/Delete O(1) average (index insert O(n))
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data=0):
         self.next = None

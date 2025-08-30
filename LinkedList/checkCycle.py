@@ -1,3 +1,10 @@
+"""
+Title: Detect Cycle in Linked List
+Approach: Floyd's Tortoise and Hare: move slow by 1 and fast by 2; if they meet, cycle exists.
+Time: O(n)
+Space: O(1)
+"""
+
 class Node:
     def __init__(self,data=0):
         self.next = None

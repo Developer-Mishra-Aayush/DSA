@@ -1,3 +1,10 @@
+"""
+Title: Custom Sort String
+Approach: Iterate preference order and append matching chars from s, removing them; append remaining chars at the end.
+Time: O(n * m) worst with list removals; can be O(n + m) with counts
+Space: O(n)
+"""
+
 def customSortString(order,s):
     ans = []
     order = list(order)

@@ -1,3 +1,10 @@
+"""
+Title: Sort 0s, 1s, and 2s (Dutch National Flag)
+Approach: Three-pointer partitioning with start, mid, end; swap based on current value.
+Time: O(n)
+Space: O(1)
+"""
+
 def sort_0_1_2(nums):
     start = 0
     mid = 0 

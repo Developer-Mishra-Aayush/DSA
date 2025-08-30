@@ -1,3 +1,10 @@
+"""
+Title: Search in Rotated Sorted Array
+Approach: Find pivot (maximum) via binary search, then binary search in the appropriate half depending on target.
+Time: O(log n)
+Space: O(1)
+"""
+
 def getPivot(nums,target):
     start = 0
     end = len(nums)-1

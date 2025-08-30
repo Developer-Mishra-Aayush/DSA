@@ -1,3 +1,10 @@
+"""
+Title: Insertion Sort
+Approach: Build the sorted array one element at a time by inserting the current element into its correct position among previous elements.
+Time: O(n^2)
+Space: O(1)
+"""
+
 def insertionSort(nums):
     for i in range(1,len(nums)):
         j = i-1

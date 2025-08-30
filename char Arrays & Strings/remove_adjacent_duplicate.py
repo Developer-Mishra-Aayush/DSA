@@ -1,3 +1,10 @@
+"""
+Title: Remove All Adjacent Duplicates in String
+Approach: Use a stack (list) to push chars; pop when the top equals current to remove pairs.
+Time: O(n)
+Space: O(n)
+"""
+
 def removeDuplicates(s):
     ans = []
     for i in s:
