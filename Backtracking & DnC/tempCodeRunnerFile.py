@@ -1,2 +1,0 @@
-
-            tempAns.pop()
