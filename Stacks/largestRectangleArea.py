@@ -28,7 +28,7 @@ class Solution:
                 ans[i]=len(heights)
         return ans
 
-    def largestRectangleArea(self, heights: List[int]) -> int:
+    def largestRectangleArea(self, heights):
         prev = self.prev_smaller(heights)
         next = self.nextSmallerElement(heights)
         ans = -2**32
