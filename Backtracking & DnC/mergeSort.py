@@ -1,8 +1,8 @@
 """
 Title: Merge Sort
-Approach: Divide the array into halves recursively and merge sorted halves using an auxiliary merge procedure.
-Time: O(n log n)
-Space: O(n)
+Approach: Use divide and conquer to sort array by recursively dividing into halves and merging sorted halves
+Time: O(n log n) where n is the length of array
+Space: O(n) for temporary array and recursion stack
 """
 
 def merge(nums,start,end):

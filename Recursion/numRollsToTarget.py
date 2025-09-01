@@ -1,3 +1,10 @@
+"""
+Title: Number of Dice Rolls With Target Sum
+Approach: Use recursion with memoization to count all possible ways to roll dice to reach target sum
+Time: O(n * k * target) where n is number of dice, k is faces per die, target is the target sum
+Space: O(n * target) for recursion stack and memoization
+"""
+
 def solve(n,k,target):
     if target<0:
         return 0

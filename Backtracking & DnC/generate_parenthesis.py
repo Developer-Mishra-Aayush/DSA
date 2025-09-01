@@ -1,3 +1,10 @@
+"""
+Title: Generate Parentheses
+Approach: Use backtracking to generate valid parentheses by adding '(' or ')' when valid
+Time: O(4^n/sqrt(n)) - Catalan number complexity
+Space: O(n) for recursion stack and result storage
+"""
+
 def solve(n,open,close,ans,temp):
     if open == 0 and close ==0:
         ans.append(temp)

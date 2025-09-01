@@ -1,8 +1,8 @@
 """
-Title: Last Occurrence of Character (Recursive)
-Approach: Traverse string recursively and update answer when character matches; return the last seen index
-Time: O(n)
-Space: O(n) - recursion depth
+Title: Last Occurrence of Character
+Approach: Use recursion to find the last occurrence of a target character in the string
+Time: O(n) where n is the length of the string
+Space: O(n) for recursion stack
 """
 
 def solve(s,x,ans,index):

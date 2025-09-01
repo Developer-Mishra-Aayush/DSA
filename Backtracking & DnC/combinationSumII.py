@@ -1,3 +1,10 @@
+"""
+Title: Combination Sum II
+Approach: Use backtracking to find unique combinations that sum to target, avoiding duplicates
+Time: O(2^n) where n is the number of candidates
+Space: O(n) for recursion stack
+"""
+
 def solve(candidates,target,ans,tempAns,index):
     if target==0:
         ans.append(tempAns[:])

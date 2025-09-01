@@ -1,3 +1,10 @@
+"""
+Title: In-place Merge Sort
+Approach: Use divide and conquer to sort array in-place by merging sorted subarrays
+Time: O(n log n) where n is the length of array
+Space: O(1) additional space (in-place)
+"""
+
 import math
 
 def findGap(totalLen):

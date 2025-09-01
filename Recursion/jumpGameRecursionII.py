@@ -1,8 +1,8 @@
 """
-Title: Jump Game II (Recursive Minimum Jumps)
-Approach: From current index, try all reachable next indices and take the minimum number of steps to reach end; track steps along recursion
-Time: Exponential without memoization
-Space: O(n) - recursion depth in worst case
+Title: Jump Game II (Recursive)
+Approach: Use recursion to find minimum jumps needed to reach the end of array
+Time: O(2^n) where n is the length of the array
+Space: O(n) for recursion stack
 """
 
 def solve(nums,index,ans,step):

@@ -1,3 +1,10 @@
+"""
+Title: Permutations
+Approach: Use backtracking to generate all possible permutations of array elements
+Time: O(n!) where n is the length of array
+Space: O(n) for recursion stack and result storage
+"""
+
 def solve(s,ans,tempAns,i):
     if i>=len(s):
         ans.append("".join(tempAns))

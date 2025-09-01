@@ -1,8 +1,8 @@
 """
-Title: Reverse String (Recursive)
-Approach: Swap characters at start/end and recurse inward until pointers cross
-Time: O(n)
-Space: O(n) - recursion depth
+Title: Reverse String
+Approach: Use recursion to swap characters from start and end, moving towards center
+Time: O(n) where n is the length of the string
+Space: O(n) for recursion stack
 """
 
 def solve(s,start,end):

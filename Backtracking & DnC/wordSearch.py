@@ -1,3 +1,10 @@
+"""
+Title: Word Search
+Approach: Use backtracking with DFS to search for word in 2D grid by trying all directions
+Time: O(m*n*4^L) where m*n is grid size and L is word length
+Space: O(L) for recursion stack
+"""
+
 from typing import List
 
 class Solution:

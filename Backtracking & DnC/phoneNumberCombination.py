@@ -1,3 +1,10 @@
+"""
+Title: Letter Combinations of Phone Number
+Approach: Use backtracking to generate all possible combinations by trying each letter for each digit
+Time: O(4^n * n) where n is the number of digits and 4 is max letters per digit
+Space: O(n) for recursion stack and result storage
+"""
+
 class Solution(object):
     def solve(self,dict,digits,ans,tempAns,i):
         if i>=len(digits):

@@ -1,3 +1,10 @@
+"""
+Title: Combination Sum
+Approach: Use backtracking to find all combinations of candidates that sum to target
+Time: O(2^target) in worst case as we can choose each candidate multiple times
+Space: O(target) for recursion stack
+"""
+
 def solve(candidates,target,ans,tempAns,index):
     if target==0:
         ans.append(tempAns[:])

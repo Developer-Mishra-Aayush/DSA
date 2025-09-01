@@ -1,8 +1,8 @@
 """
-Title: Minimize the Difference (Matrix Rows to Target)
-Approach: Intended recursive/DP approach: pick one value from each row to minimize |sum - target|; typical solutions use recursion with memoization or DP over sums
-Time: Exponential without memoization; DP ~ O(rows * targetRange)
-Space: O(rows) recursion depth or DP table size
+Title: Minimize the Difference
+Approach: Use recursion to find the minimum difference between two subset sums
+Time: O(2^n) where n is the length of the array
+Space: O(n) for recursion stack
 """
 
 # def solve(mat,target,i,j):

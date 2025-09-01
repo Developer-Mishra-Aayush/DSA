@@ -11,9 +11,10 @@ DSA/
   Arrays/                     # Array-based problems and matrix utilities
   char Arrays & Strings/      # String algorithms and character array problems
   LinkedList/                 # Singly/Doubly linked list implementations and problems
+  Recursion/                  # Recursive solutions and patterns
+  Backtracking & DnC/        # Backtracking algorithms and Divide & Conquer solutions
   Searching & Sorting/        # Classic search/sort problems and patterns
   Sorting Algorithms/         # Fundamental sorting algorithm implementations
-  Recursion/                  # Recursive solutions and patterns
 ```
 
 Each folder contains one-file-per-problem Python solutions, named after the problem.
@@ -47,26 +48,90 @@ print(two_sum([2,7,11,15], 9))  # -> [0, 1] (example)
 
 ## Topics Overview (folders)
 
-- Arrays: prefix sums, two-pointer techniques, hashing, matrix traversal, etc.
-- char Arrays & Strings: anagrams, palindrome checks, sliding window, string transforms.
-- LinkedList: construction, reversal, cycle detection, partitioning, k-group reversal.
-- Searching & Sorting: binary search patterns, allocation/partition problems, rotated arrays.
-- Sorting Algorithms: bubble, insertion, selection, merge, and quick sort implementations.
+### Arrays
+Array manipulation, prefix sums, two-pointer techniques, hashing, matrix traversal, and common array patterns.
+- **Key Problems**: Two Sum, Three Sum, Missing Number, Remove Duplicates, Spiral Print, Wave Print
+- **Matrix Operations**: Transpose, Row/Column Sum, Spiral Traversal
+- **Techniques**: Sliding Window, Two Pointers, Hashing, Sorting
+
+### Character Arrays & Strings
+String algorithms, character manipulation, and advanced string processing techniques.
+- **Key Problems**: Valid Anagram, Longest Common Prefix, Palindrome Check, String Compression
+- **Advanced**: Wildcard Matching, Isomorphic Strings, Group Anagrams, Zigzag Conversion
+- **Techniques**: Sliding Window, Two Pointers, Character Frequency Counting
+
+### LinkedList
+Singly and doubly linked list implementations, operations, and problem-solving patterns.
+- **Key Problems**: Reverse List, Detect Cycle, Merge Lists, Remove Nth Node
+- **Advanced**: Copy List with Random Pointer, Partition List, Rotate List
+- **Techniques**: Two Pointers (Fast/Slow), Recursion, Iterative Manipulation
+
+### Recursion
+Recursive solutions and patterns for various algorithmic problems.
+- **Key Problems**: Fibonacci Series, Factorial, Binary Search, Palindrome Check
+- **Advanced**: Coin Change, House Robber, Jump Game, Perfect Squares
+- **Techniques**: Memoization, Backtracking, Divide & Conquer, Tree Traversal
+
+### Backtracking & Divide & Conquer
+Backtracking algorithms and divide-and-conquer solutions for complex problems.
+- **Backtracking**: N-Queens, Rat in Maze, Word Search, Permutations, Combinations
+- **Divide & Conquer**: Merge Sort, Quick Sort, Count Inversions, Max Subarray
+- **Techniques**: State Space Search, Pruning, Recursive Backtracking
+
+### Searching & Sorting
+Classic search and sort problems with advanced patterns and optimizations.
+- **Searching**: Binary Search, Search in Rotated Array, Peak Finding
+- **Allocation Problems**: Book Allocation, Painter Partition, Aggressive Cows
+- **Techniques**: Binary Search on Answer, Two Pointers, Greedy Approaches
+
+### Sorting Algorithms
+Fundamental sorting algorithm implementations with analysis.
+- **Algorithms**: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort
+- **Analysis**: Time/Space Complexity, Stability, In-place vs Extra Space
+- **Optimizations**: Early Termination, Pivot Selection, Merge Strategies
+
+## Problem Documentation
+
+Each problem file includes:
+- **Title**: Clear description of the problem
+- **Approach**: Brief explanation of the algorithm/strategy used
+- **Time Complexity**: Analysis of time requirements
+- **Space Complexity**: Analysis of memory requirements
 
 ## Suggested Workflow
 
-1. Pick a topic folder.
-2. Open a file to review the approach and implementation.
-3. Run the script or import its main function(s) to test with custom inputs.
+1. **Start with Basics**: Begin with Arrays and Sorting Algorithms for fundamental concepts
+2. **Progress to Intermediate**: Move to LinkedList and Recursion for more complex patterns
+3. **Advanced Topics**: Explore Backtracking & DnC for sophisticated problem-solving techniques
+4. **Practice**: Use Searching & Sorting for interview-style problems
+5. **Review**: Revisit problems to understand different approaches and optimizations
+
+## Learning Path
+
+### Beginner Level
+- Arrays: Two Sum, Missing Number, Remove Duplicates
+- Sorting: Bubble Sort, Selection Sort, Insertion Sort
+- Recursion: Factorial, Fibonacci, Print Array
+
+### Intermediate Level
+- LinkedList: Reverse, Detect Cycle, Merge Lists
+- Strings: Valid Anagram, Palindrome, Longest Common Prefix
+- Recursion: Binary Search, Coin Change, House Robber
+
+### Advanced Level
+- Backtracking: N-Queens, Rat in Maze, Permutations
+- Divide & Conquer: Merge Sort, Quick Sort, Count Inversions
+- Complex Problems: Wildcard Matching, Isomorphic Strings, Group Anagrams
 
 ## Contributing
 
 Contributions are welcome. Please follow these guidelines:
 
-- Keep one problem per file and name it descriptively (e.g., `two_sum.py`).
-- Include a small `__main__` demo or simple tests where helpful.
-- Prefer clear, readable code and meaningful names.
-- Add brief docstrings or comments for non-trivial logic.
+- Keep one problem per file and name it descriptively (e.g., `two_sum.py`)
+- Include a small `__main__` demo or simple tests where helpful
+- Prefer clear, readable code and meaningful names
+- Add brief docstrings or comments for non-trivial logic
+- Follow the established format with Title, Approach, Time, and Space complexity
 
 ## Author
 

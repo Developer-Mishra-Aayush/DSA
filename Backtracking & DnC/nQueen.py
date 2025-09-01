@@ -1,3 +1,10 @@
+"""
+Title: N-Queens Problem
+Approach: Use backtracking to place queens on chessboard so no two queens threaten each other
+Time: O(n!) where n is the board size
+Space: O(n) for recursion stack and board representation
+"""
+
 def isPossible(n,board,col,row):
     # Firstly Check All The backward Row
     for j in range(col,-1,-1):

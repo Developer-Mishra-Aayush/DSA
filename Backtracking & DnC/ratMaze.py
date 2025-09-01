@@ -1,3 +1,10 @@
+"""
+Title: Rat in a Maze
+Approach: Use backtracking with DFS to find all possible paths from start to end in the maze
+Time: O(4^(n*n)) where n is the size of maze as we can move in 4 directions
+Space: O(n*n) for visited matrix and recursion stack
+"""
+
 def isSafe(maze,visited,i,j,currentPath,ans):
     if i>=0 and i<len(maze) and j>=0 and j<len(maze) and  maze[i][j]==1 and visited[i][j] == 0:
         return True

@@ -1,3 +1,10 @@
+"""
+Title: Count Inversions
+Approach: Use merge sort to count inversions while sorting the array
+Time: O(n log n) where n is the length of array
+Space: O(n) for temporary array and recursion stack
+"""
+
 def merge(nums,start,end):
     mid = start + (end - start)//2
     len1 = mid - start + 1

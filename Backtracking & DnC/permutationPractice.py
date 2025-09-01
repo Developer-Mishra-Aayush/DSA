@@ -1,3 +1,10 @@
+"""
+Title: Permutations Practice
+Approach: Use backtracking to generate all possible permutations by swapping elements
+Time: O(n!) where n is the length of array
+Space: O(n) for recursion stack
+"""
+
 def solve(nums, ans, index):
     if index >= len(nums):
         ans.append(nums[:])

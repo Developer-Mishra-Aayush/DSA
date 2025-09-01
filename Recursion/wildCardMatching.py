@@ -1,3 +1,10 @@
+"""
+Title: Wildcard Pattern Matching
+Approach: Use recursion to match pattern with string, handling * and ? wildcards
+Time: O(2^(m+n)) where m and n are lengths of pattern and string respectively
+Space: O(m+n) for recursion stack
+"""
+
 def solve(s,t,len1,len2):
     if len1<0 and len2<0:
         return True

@@ -1,3 +1,10 @@
+"""
+Title: Maximum Subarray Sum
+Approach: Use divide and conquer to find maximum subarray sum by dividing array and combining results
+Time: O(n log n) where n is the length of array
+Space: O(log n) for recursion stack
+"""
+
 def maxSubArray(nums):
     maxi = nums[0]
     sum = 0

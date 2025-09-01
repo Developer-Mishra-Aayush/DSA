@@ -1,8 +1,8 @@
 """
-Title: Partition Equal Subset Sum (Recursive)
-Approach: Recursive inclusion-exclusion to reach sum(nums)//2; prune if sum exceeds or index out of bounds; base when partial sum equals target
-Time: Exponential without memoization; worst-case explores 2^n subsets
-Space: O(n) - recursion depth
+Title: Partition Equal Subset Sum
+Approach: Use recursion to check if array can be partitioned into two subsets with equal sum
+Time: O(2^n) where n is the length of the array
+Space: O(n) for recursion stack
 """
 
 def solve(nums,sumi,i):

@@ -1,3 +1,10 @@
+"""
+Title: Perfect Squares
+Approach: Use dynamic programming with recursion and memoization to find the minimum number of perfect squares that sum to n
+Time: O(n * sqrt(n)) where n is the input number
+Space: O(n) for recursion stack and memoization cache
+"""
+
 from functools import lru_cache
 
 @lru_cache(None)

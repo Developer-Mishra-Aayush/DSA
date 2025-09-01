@@ -1,8 +1,8 @@
 """
-Title: Remove All Occurrences of Substring (Recursive)
-Approach: While the pattern exists, remove it and recurse until no occurrence remains
-Time: O(k * n) worst-case depending on replacements (k occurrences)
-Space: O(k) recursion depth due to repeated removals
+Title: Remove All Occurrences
+Approach: Use recursion to remove all occurrences of a target element from the array
+Time: O(n) where n is the length of the array
+Space: O(n) for recursion stack
 """
 
 def removeOccurence(s,part):

@@ -1,8 +1,8 @@
 """
-Title: Jump Game (Recursive Reachability)
-Approach: From current index, try all jumps from 1..nums[i] recursively; return True if any path reaches last index
-Time: Exponential without memoization
-Space: O(n) - recursion depth in worst case
+Title: Jump Game (Recursive)
+Approach: Use recursion to check if it's possible to reach the end of array using jumps
+Time: O(2^n) where n is the length of the array
+Space: O(n) for recursion stack
 """
 
 def solve(nums,index):

@@ -1,8 +1,8 @@
 """
-Title: Palindrome Check (Recursive)
-Approach: Compare characters at start and end; recurse inward until pointers cross or mismatch
-Time: O(n)
-Space: O(n) - recursion depth
+Title: Palindrome Check
+Approach: Use recursion to check if string is palindrome by comparing characters from start and end
+Time: O(n) where n is the length of the string
+Space: O(n) for recursion stack
 """
 
 def solve(s,start,end):

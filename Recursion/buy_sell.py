@@ -1,8 +1,8 @@
 """
-Title: Best Time to Buy and Sell Stock (Single Transaction)
-Approach: One pass tracking minimum price so far and maximum profit difference
-Time: O(n)
-Space: O(1)
+Title: Buy and Sell Stock
+Approach: Use recursion to find the maximum profit by trying all possible buy and sell combinations
+Time: O(2^n) where n is the number of days
+Space: O(n) for recursion stack
 """
 
 def maxProfit(nums):
