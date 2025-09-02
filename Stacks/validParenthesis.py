@@ -1,3 +1,10 @@
+"""
+Title: Valid Parentheses
+Approach: Use stack to match opening and closing brackets; early reject on mismatch
+Time: O(n)
+Space: O(n)
+"""
+
 from collections import deque
 
 def isValid(s):

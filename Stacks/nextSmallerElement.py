@@ -1,3 +1,10 @@
+"""
+Title: Next Smaller Element
+Approach: Traverse from right to left maintaining a monotonic increasing stack; for each element, pop until smaller is found
+Time: O(n)
+Space: O(n)
+"""
+
 from collections import deque
 
 def nextSmaller(nums):

@@ -1,3 +1,10 @@
+"""
+Title: Largest Rectangle in Histogram
+Approach: Use monotonic stack to find previous and next smaller for each bar; compute width*height
+Time: O(n)
+Space: O(n)
+"""
+
 class Solution:
     def prev_smaller(self,heights):
         ans = [0 for _ in range(len(heights))]

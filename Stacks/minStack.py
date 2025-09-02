@@ -1,3 +1,10 @@
+"""
+Title: Min Stack
+Approach: Maintain a data stack and a min stack that tracks the current minimum at each push
+Time: O(1) per operation (push/pop/top/getMin)
+Space: O(n)
+"""
+
 class MinStack:
 
     def __init__(self):
