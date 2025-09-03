@@ -13,6 +13,7 @@ DSA/
   LinkedList/                 # Singly/Doubly linked list implementations and problems
   Recursion/                  # Recursive solutions and patterns
   Backtracking & DnC/        # Backtracking algorithms and Divide & Conquer solutions
+  Stacks/                     # Stack-based algorithms and data structure problems
   Searching & Sorting/        # Classic search/sort problems and patterns
   Sorting Algorithms/         # Fundamental sorting algorithm implementations
 ```
@@ -78,6 +79,14 @@ Backtracking algorithms and divide-and-conquer solutions for complex problems.
 - **Divide & Conquer**: Merge Sort, Quick Sort, Count Inversions, Max Subarray
 - **Techniques**: State Space Search, Pruning, Recursive Backtracking
 
+### Stacks
+Stack-based algorithms and data structure problems with various applications.
+- **Basic Operations**: Reverse Stack, Insert at Bottom, Check if Sorted, Find Middle Element
+- **Advanced Problems**: Car Fleet, Celebrity Problem, Decode String, Largest Rectangle Area
+- **Monotonic Stack**: Next/Previous Smaller Elements, Stock Span, Min Stack
+- **String Processing**: Valid Parentheses, Bracket Reversal, Remove Duplicates, Simplify Path
+- **Techniques**: Monotonic Stack, Recursive Stack Manipulation, State Tracking
+
 ### Searching & Sorting
 Classic search and sort problems with advanced patterns and optimizations.
 - **Searching**: Binary Search, Search in Rotated Array, Peak Finding
@@ -117,10 +126,12 @@ Each problem file includes:
 - LinkedList: Reverse, Detect Cycle, Merge Lists
 - Strings: Valid Anagram, Palindrome, Longest Common Prefix
 - Recursion: Binary Search, Coin Change, House Robber
+- Stacks: Basic Operations, Valid Parentheses, Remove Duplicates
 
 ### Advanced Level
 - Backtracking: N-Queens, Rat in Maze, Permutations
 - Divide & Conquer: Merge Sort, Quick Sort, Count Inversions
+- Stacks: Monotonic Stack, Car Fleet, Celebrity Problem, Largest Rectangle Area
 - Complex Problems: Wildcard Matching, Isomorphic Strings, Group Anagrams
 
 ## Contributing
