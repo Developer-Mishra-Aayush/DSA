@@ -1,3 +1,10 @@
+"""
+Title: Interleave First Half of Queue with Second Half
+Approach: Move first half to a secondary queue then alternately append one from each to interleave
+Time: O(n)
+Space: O(n)
+"""
+
 from collections import deque
 
 def interLeaveHalf(queue):

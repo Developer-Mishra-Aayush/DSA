@@ -1,3 +1,10 @@
+"""
+Title: Reverse a Queue using Recursion
+Approach: Recursively pop front element, reverse remainder, then append element at back
+Time: O(n)
+Space: O(n) recursion
+"""
+
 from collections import deque
 
 def reverseQueue(queue):

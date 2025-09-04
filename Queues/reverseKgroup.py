@@ -1,3 +1,10 @@
+"""
+Title: Reverse Queue in Groups of K
+Approach: Recursively pop K elements to a temporary array, push them back reversed; process remainder recursively and collect into output deque
+Time: O(n)
+Space: O(k) auxiliary + O(n) output
+"""
+
 from collections import deque
 
 def solve(queue,k,stack):

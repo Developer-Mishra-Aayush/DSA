@@ -1,3 +1,10 @@
+"""
+Title: First Negative Number in Every Window of Size K
+Approach: Use a deque to store indices of negative numbers; slide window by removing out-of-window indices and adding new negatives
+Time: O(n)
+Space: O(k)
+"""
+
 from collections import deque
 def firstNegEveryK(nums,k):
     stack = deque()
