@@ -1,3 +1,10 @@
+"""
+Title: Flatten Nested List Iterator
+Approach: DFS to pre-flatten nested list into a queue, then serve next/hasNext from the queue
+Time: O(n) to flatten; O(1) per next/hasNext
+Space: O(n) for the flattened queue
+"""
+
 # """
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation
