@@ -1,3 +1,10 @@
+"""
+Title: Diameter of Binary Tree
+Approach: Recursively compute height; diameter at node = left_height + right_height; take max across nodes; memoize heights
+Time: O(n)
+Space: O(h)
+"""
+
 from functools import lru_cache
 # Definition for a binary tree node.
 # class TreeNode:

@@ -1,3 +1,10 @@
+"""
+Title: Balanced Binary Tree
+Approach: Recursively check that subtrees are balanced and heights differ by at most 1; compute height as 1 + max(lh, rh)
+Time: O(n)
+Space: O(h)
+"""
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

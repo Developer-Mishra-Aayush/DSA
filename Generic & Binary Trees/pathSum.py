@@ -1,3 +1,10 @@
+"""
+Title: Path Sum (Root to Leaf)
+Approach: DFS recursively subtracting node values from target; check at leaves if remaining sum is zero
+Time: O(n)
+Space: O(h)
+"""
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, val=0, left=None, right=None):

@@ -1,3 +1,10 @@
+"""
+Title: Maximum Depth of Binary Tree
+Approach: Recursively compute height as 1 + max(height(left), height(right)); base: None -> 0
+Time: O(n) where n is number of nodes
+Space: O(h) recursion stack (h = height)
+"""
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):

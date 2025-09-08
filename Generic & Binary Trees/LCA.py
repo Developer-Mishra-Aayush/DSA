@@ -1,3 +1,10 @@
+"""
+Title: Lowest Common Ancestor of a Binary Tree
+Approach: Recurse from root; if a node matches p or q, return it; otherwise return non-null result from left/right; if both non-null, current is LCA
+Time: O(n)
+Space: O(h)
+"""
+
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

@@ -1,3 +1,10 @@
+"""
+Title: Construct Binary Tree from Preorder and Inorder Traversal
+Approach: Use a hashmap for inorder indices and a preorder index pointer; recursively build left and right subtrees based on inorder partition
+Time: O(n)
+Space: O(n)
+"""
+
 # Construct Tree from Inorder and Preorder
 # Definition for a binary tree node.
 class TreeNode(object):
