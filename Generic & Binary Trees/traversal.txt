@@ -1,0 +1,6 @@
+preorder traversal -> NLR
+inorder traversal -> LNR
+postorder traversal -> LRN
+L -> Left node
+N -> current node
+R -> Right node
