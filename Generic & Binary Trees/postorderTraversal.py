@@ -1,3 +1,10 @@
+"""
+Title: Postorder Traversal of Binary Tree
+Approach: Recursively traverse left subtree, then right subtree, then process root
+Time: O(n) where n is the number of nodes
+Space: O(h) for recursion stack where h is height
+"""
+
 class Node:
     def __init__(self,data= 0):
         self.data = data

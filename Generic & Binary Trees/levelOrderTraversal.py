@@ -1,3 +1,10 @@
+"""
+Title: Level Order Traversal (Left to Right)
+Approach: Use BFS with queue, process nodes level by level using None as level separator
+Time: O(n) where n is the number of nodes
+Space: O(w) where w is maximum width of tree
+"""
+
 # Level Order Traversal from left to right
 from collections import deque
 

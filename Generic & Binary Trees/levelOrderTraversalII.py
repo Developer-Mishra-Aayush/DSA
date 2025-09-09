@@ -1,3 +1,10 @@
+"""
+Title: Level Order Traversal (Right to Left)
+Approach: Use BFS with queue, enqueue right child before left to reverse level order
+Time: O(n) where n is the number of nodes
+Space: O(w) where w is maximum width of tree
+"""
+
 from collections import deque
 
 class Node:

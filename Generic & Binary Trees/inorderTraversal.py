@@ -1,3 +1,10 @@
+"""
+Title: Inorder Traversal of Binary Tree
+Approach: Recursively traverse left subtree, process root, then traverse right subtree
+Time: O(n) where n is the number of nodes
+Space: O(h) for recursion stack where h is height
+"""
+
 class Node:
     def __init__(self,data= 0):
         self.data = data
