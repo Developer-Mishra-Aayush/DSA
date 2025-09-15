@@ -1,36 +1,45 @@
 class Node:
-    def __init__(self,data = 0):
-        self.data = data
+    def __init__(self,val = 0):
+        self.val = val
         self.left = None
         self.right = None
         self.minDistance= float('inf')
+        self.pre = None
 
-    def insert(self,root,data):
+    def insert(self,root,val):
         if root is None:
-            return Node(data)
+            return Node(val)
         else:
-            if data<root.data:
-                self.insert(root.left,data)
+            if val<root.val:
+                root.left = self.insert(root.left,val)
             else:
-                self.insert(root.right,data)
+                root.right = self.insert(root.right,val)
             return root
     
     def createTree(self):
         root = None
         print("Enter the Data to form a Tree (-1 to stop)")
         while True:
-            data = int(input("ENter the Data : "))
-            if data == -1:
+            val = int(input("ENter the Data : "))
+            if val == -1:
                 break
-            self.insert(root,data)
+            root = self.insert(root,val)
         return root
     
     def solve(self,root):
+        # Do this Question By Using inorder Traversal
         if root is None:
-            return float('inf')
-        leftans = self.findMinDistance(root.left)
-        self.minDistance = min(self.minDistance,root.data-leftans)
-        rightAns = self.findMinDistance(root,rightAns)
+            return
+
+        # Left Call
+        self.solve(root.left)
+        if self.prev is not None:
+            self.minDistance = min(self.minDistance,abs(root.val - self.prev.val))
+        # Now Place the Prev to Curr
+        self.prev = root
+
+        # Right Call
+        self.solve(root.right)
     
     def findMinDistance(self,root):
         self.solve(root)
