@@ -1,3 +1,10 @@
+"""
+Title: Top View of Binary Tree
+Approach: Traverse left subtree in reverse order, then right subtree in normal order; collect nodes visible from top.
+Time: O(n)
+Space: O(h)
+"""
+
 # Traverse Top View of the Tree
 
 class Node:

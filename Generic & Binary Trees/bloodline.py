@@ -1,3 +1,10 @@
+"""
+Title: Sum of Longest Bloodline (Root to Leaf Path)
+Approach: DFS to find all root-to-leaf paths; track the longest path and among those, the one with maximum sum.
+Time: O(n)
+Space: O(h)
+"""
+
 '''
 class Node:
     def __init__(self, val):

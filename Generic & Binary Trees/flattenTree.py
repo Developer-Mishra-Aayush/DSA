@@ -1,3 +1,10 @@
+"""
+Title: Flatten Binary Tree to Linked List
+Approach: Morris-like traversal; for each node with left child, find rightmost node in left subtree and connect it to current's right, then move left to right.
+Time: O(n)
+Space: O(1)
+"""
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

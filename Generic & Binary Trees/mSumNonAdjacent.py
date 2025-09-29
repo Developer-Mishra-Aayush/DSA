@@ -1,3 +1,10 @@
+"""
+Title: Maximum Sum of Non-Adjacent Nodes in Binary Tree
+Approach: For each node, return [sum_including_node, sum_excluding_node]; take max of both options at root.
+Time: O(n)
+Space: O(h)
+"""
+
 '''
 # Node Class:
 class Node:

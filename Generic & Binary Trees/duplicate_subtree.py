@@ -1,3 +1,10 @@
+"""
+Title: Find Duplicate Subtrees
+Approach: Serialize each subtree using preorder traversal; use a map to track frequency and collect duplicates.
+Time: O(n)
+Space: O(n)
+"""
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

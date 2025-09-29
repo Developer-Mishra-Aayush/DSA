@@ -1,3 +1,10 @@
+"""
+Title: Morris Inorder Traversal
+Approach: Threaded binary tree traversal; create temporary links to predecessor, traverse, then restore tree structure.
+Time: O(n)
+Space: O(1)
+"""
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):

@@ -1,3 +1,10 @@
+"""
+Title: Minimum Time to Burn Tree
+Approach: Build parent map via BFS, then simulate burning by spreading from target to parent and children level by level.
+Time: O(n)
+Space: O(n)
+"""
+
 from collections import deque
 class Node:
     def __init__(self,data = 0):

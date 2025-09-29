@@ -10,6 +10,7 @@ individual solutions.
 DSA/
   Arrays/                     # Array-based problems and matrix utilities
   char Arrays & Strings/      # String algorithms and character array problems
+  Generic & Binary Trees/     # Binary tree operations, traversals, and tree-based algorithms
   LinkedList/                 # Singly/Doubly linked list implementations and problems
   Recursion/                  # Recursive solutions and patterns
   Backtracking & DnC/        # Backtracking algorithms and Divide & Conquer solutions
@@ -60,6 +61,14 @@ String algorithms, character manipulation, and advanced string processing techni
 - **Key Problems**: Valid Anagram, Longest Common Prefix, Palindrome Check, String Compression
 - **Advanced**: Wildcard Matching, Isomorphic Strings, Group Anagrams, Zigzag Conversion
 - **Techniques**: Sliding Window, Two Pointers, Character Frequency Counting
+
+### Generic & Binary Trees
+Binary tree operations, traversals, and tree-based algorithms with comprehensive coverage.
+- **Traversals**: Inorder, Preorder, Postorder, Level Order, Morris Traversal
+- **Tree Properties**: Height, Diameter, Balanced Tree, Identical Trees, Path Sum
+- **Advanced Operations**: Tree Construction, Flatten Tree, Boundary Traversal, Top/Bottom View
+- **Tree Algorithms**: Lowest Common Ancestor, Duplicate Subtrees, Burning Tree, Sum Tree
+- **Techniques**: DFS, BFS, Recursion, Tree Manipulation, Parent-Child Relationships
 
 ### LinkedList
 Singly and doubly linked list implementations, operations, and problem-solving patterns.
@@ -127,11 +136,13 @@ Each problem file includes:
 - Strings: Valid Anagram, Palindrome, Longest Common Prefix
 - Recursion: Binary Search, Coin Change, House Robber
 - Stacks: Basic Operations, Valid Parentheses, Remove Duplicates
+- Binary Trees: Tree Traversals, Height/Diameter, Balanced Tree, Path Sum
 
 ### Advanced Level
 - Backtracking: N-Queens, Rat in Maze, Permutations
 - Divide & Conquer: Merge Sort, Quick Sort, Count Inversions
 - Stacks: Monotonic Stack, Car Fleet, Celebrity Problem, Largest Rectangle Area
+- Binary Trees: Tree Construction, Flatten Tree, Boundary Traversal, LCA, Burning Tree
 - Complex Problems: Wildcard Matching, Isomorphic Strings, Group Anagrams
 
 ## Contributing
