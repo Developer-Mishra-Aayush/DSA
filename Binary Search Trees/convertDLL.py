@@ -1,3 +1,10 @@
+"""
+Title: Convert BST to Sorted Doubly Linked List
+Approach: Reverse inorder traversal (RNL); relink nodes in-place using a moving head pointer to form a DLL.
+Time: O(n)
+Space: O(h)
+"""
+
 class Node:
 
     def __init__(self, data=0):

@@ -1,48 +1,44 @@
 class Node:
-    def __init__(self,val = 0):
-        self.val = val
+    def __init__(self,data = 0):
         self.left = None
         self.right = None
+        self.data = data
         self.pred = None
 
     def insert(self,root,val):
         if root is None:
             return Node(val)
         else:
-            if val<root.val:
+            if val < root.data:
                 root.left = self.insert(root.left,val)
             else:
                 root.right = self.insert(root.right,val)
             return root
-    
+
     def createTree(self):
+        print("Enter the Data to form a Tree(-1 to stop)")
         root = None
-        print("Enter the Data to form a Tree (-1 to stop)")
         while True:
-            val = int(input("ENter the Data : "))
+            val = int(input("Enter the Data : "))
             if val == -1:
                 break
-            root = self.insert(root,val)
+            root  = self.insert(root,val)
         return root
     
-    def solve(self,root,target):
+    def inorderPredecessor(self,root,targetnode):
+        # Base Case
         if root is None:
             return
+        else:
+            if root.data<targetNode:
+                self.pred = root
+                self.inorderPredecessor(root.right,targetNode)
+            else:
+                self.inorderPredecessor(root.left,targetNode)
         
-        if root.data ==target:
-            return 
-        
-        if root.data<target:
-            self.pred = root.data
-            self.solve(root.right,target)
-        if root.data>target:
-            self.solve(root.left,target)
-        return self.pred
-    
-    def findPredecessor(self,root,target):
-        self.solve(root,target)
-        return self.pred
-
 
 l1 = Node()
 root = l1.createTree()
+targetNode = 8
+l1.inorderPredecessor(root,targetNode)
+print(f"Inorder Predeceddor of Node {targetNode} is {l1.pred.data}")

@@ -1,3 +1,10 @@
+"""
+Title: BST Iterator (Inorder)
+Approach: Initialize stack with left spine; next() pops and pushes right child's left spine; hasNext() checks stack.
+Time: Amortized O(1) per operation, O(n) total
+Space: O(h)
+"""
+
 from collections import deque
 # Definition for a binary tree node.
 class TreeNode:

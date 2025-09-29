@@ -1,3 +1,10 @@
+"""
+Title: Create and Traverse a Binary Search Tree
+Approach: Insert values iteratively into BST; perform level-order traversal using a queue.
+Time: Insert O(h) per value; Level-order O(n)
+Space: O(h) insert, O(w) traversal
+"""
+
 from collections import deque
 class Node:
     def __init__(self,data= 0):
