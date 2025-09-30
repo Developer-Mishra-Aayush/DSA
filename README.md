@@ -11,6 +11,7 @@ DSA/
   Arrays/                     # Array-based problems and matrix utilities
   char Arrays & Strings/      # String algorithms and character array problems
   Generic & Binary Trees/     # Binary tree operations, traversals, and tree-based algorithms
+  Binary Search Trees/        # BST operations: insert/delete, queries, transforms
   LinkedList/                 # Singly/Doubly linked list implementations and problems
   Recursion/                  # Recursive solutions and patterns
   Backtracking & DnC/        # Backtracking algorithms and Divide & Conquer solutions
@@ -69,6 +70,15 @@ Binary tree operations, traversals, and tree-based algorithms with comprehensive
 - **Advanced Operations**: Tree Construction, Flatten Tree, Boundary Traversal, Top/Bottom View
 - **Tree Algorithms**: Lowest Common Ancestor, Duplicate Subtrees, Burning Tree, Sum Tree
 - **Techniques**: DFS, BFS, Recursion, Tree Manipulation, Parent-Child Relationships
+
+### Binary Search Trees
+BST-specific operations and problems using the BST ordering property.
+- **Core Operations**: Insert, Delete, Search, Validate BST
+- **Iterators/Traversal**: BST Iterator, Inorder/Preorder-based builds (from preorder)
+- **Queries**: K-th Smallest, Range Sum, Inorder Successor/Predecessor, Find Median
+- **Transforms/Merge**: Balance BST, Flatten BST (right-skewed), Merge Two BSTs, Convert BST to DLL, Greater Tree
+- **Special Problems**: Check Dead End, Two Sum in BST, Least Greater Element on Right
+- **Techniques**: Inorder traversal, Two-pointer on inorder arrays, Stacks for iterative inorder, Value bounds
 
 ### LinkedList
 Singly and doubly linked list implementations, operations, and problem-solving patterns.
