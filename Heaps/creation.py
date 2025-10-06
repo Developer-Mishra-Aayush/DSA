@@ -1,3 +1,10 @@
+"""
+Title: Max Heap Implementation (Insert/Delete/Heapify)
+Approach: Array-based binary heap; insert by percolate-up, delete max by swap with last and heapify-down.
+Time: Insert/Delete O(log n); Heapify O(log n)
+Space: O(n)
+"""
+
 class Heap:
     def __init__(self):
         self.heap = []

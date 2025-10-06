@@ -12,6 +12,7 @@ DSA/
   char Arrays & Strings/      # String algorithms and character array problems
   Generic & Binary Trees/     # Binary tree operations, traversals, and tree-based algorithms
   Binary Search Trees/        # BST operations: insert/delete, queries, transforms
+  Heaps/                      # Max-heap implementation, heap sort, list-to-heap
   LinkedList/                 # Singly/Doubly linked list implementations and problems
   Recursion/                  # Recursive solutions and patterns
   Backtracking & DnC/        # Backtracking algorithms and Divide & Conquer solutions
@@ -117,6 +118,12 @@ Fundamental sorting algorithm implementations with analysis.
 - **Algorithms**: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort
 - **Analysis**: Time/Space Complexity, Stability, In-place vs Extra Space
 - **Optimizations**: Early Termination, Pivot Selection, Merge Strategies
+
+### Heaps
+Priority queue and heap-based algorithms.
+- **Implementations**: Max Heap (insert, delete, heapify), Build Heap from List
+- **Algorithms**: Heap Sort
+- **Techniques**: Array-based binary heap, Percolate-up/down, In-place heapify
 
 ## Problem Documentation
 

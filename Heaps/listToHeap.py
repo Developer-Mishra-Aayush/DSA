@@ -1,3 +1,10 @@
+"""
+Title: Build Max-Heap from List (Heapify In-Place)
+Approach: Starting from last non-leaf node, call heapify downward to enforce heap property for all nodes.
+Time: O(n)
+Space: O(1)
+"""
+
 def heapify(l1,index):
     left = index * 2
     right = index * 2 + 1

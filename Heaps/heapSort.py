@@ -1,3 +1,10 @@
+"""
+Title: Heap Sort (Max-Heap)
+Approach: Build max-heap from array, then repeatedly swap max with end and heapify the reduced heap.
+Time: O(n log n)
+Space: O(1)
+"""
+
 def heapify(nums,n,index):
     left = index*2
     right = index*2 + 1
